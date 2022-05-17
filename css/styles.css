@@ -94,6 +94,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--basic-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 /* Секция2(Преимущества)*/
 
@@ -173,7 +174,6 @@ body {
 
 .ot-text {
     font-family: "Roboto";
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
@@ -194,6 +194,7 @@ body {
     letter-spacing: 0.03em;
     background-color: var(--background-btn);
     color: var(--main-text-color);
+    cursor: pointer;
 }
 
 .examples-btn:hover,
@@ -203,16 +204,12 @@ body {
 }
 
 /*Портфолио.Секция 2(Каталог)*/
-.catalog {}
 
-.catalog-list {}
 
 .catalog-item {
     display: inline;
     list-style: none;
 }
-
-.catalog-img {}
 
 .catalog-title {
     font-family: 'Roboto';
@@ -225,7 +222,6 @@ body {
 
 .catalog-text {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
