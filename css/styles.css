@@ -37,6 +37,9 @@ body {
 .nav-item {
     display: inline;
 }
+.nav-link.current {
+    color: var(--accent-color);
+}
 
 .nav-link {
     font-family: "Roboto";
@@ -180,7 +183,6 @@ body {
 
 }
 /*Портфолио.Секция 1*/
-.examples-list {}
 
 .examples-item {
     display: inline;
