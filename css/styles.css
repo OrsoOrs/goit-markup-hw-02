@@ -48,7 +48,8 @@ body {
     text-decoration: none;
 }
 
-.nav-link:hover{
+.nav-link:hover,
+.nav-link:focus{
     color: var(--accent-color);
 }
 
@@ -66,7 +67,8 @@ body {
         text-decoration: none;
 }
 
-.tel-mail-link:hover { 
+.tel-mail-link:hover,
+.tel-mail-link:focus{ 
     color: var(--accent-color);
     
 }
@@ -194,7 +196,8 @@ body {
     color: var(--main-text-color);
 }
 
-.examples-btn:hover {
+.examples-btn:hover,
+.examples-btn:focus {
     background-color: var(--accent-color);
     color: var(--basic-color);
 }
