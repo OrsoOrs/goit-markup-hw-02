@@ -13,10 +13,9 @@ body {
     font-family: "Roboto";
     font-size: 14px;
 }
-
+/* Хедер*/
 .logo {
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
@@ -27,4 +26,228 @@ body {
 
 .web {
     color: var(--accent-color);
+}
+
+.header{
+    width: 1600px;
+    height: 80px;
+    background-color: var(--basic-color);
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--main-text-color);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: var(--accent-color);
+}
+
+.tel-mail-item {
+    list-style: none;
+}
+
+.tel-mail-link {
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--secondary-text-color);
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+}
+
+.tel-mail-link:hover { 
+    color: var(--accent-color);
+    
+}
+
+/*Герой*/
+
+.hero{
+    background-color: var(--background-dark);
+}
+
+.hero-title{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+    color: var(--basic-color);
+}
+.hero-btn{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: var(--basic-color);
+    background-color: var(--accent-color);
+}
+/* Секция2(Преимущества)*/
+
+.advantages{
+    color: var(--basic-color);
+}
+
+.advantages-item {
+    list-style: none;
+    display: inline;
+}
+
+.advantages-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.advantages-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* Секция 3(Чем мы занимаемся) */
+
+.our_business {
+    background-color: var(--basic-color);
+}
+
+.ob-title1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.ob-item {
+    list-style: none;
+    display: inline
+}
+/* Секция 4(Наша команда)*/
+
+.our_team {
+    background-color: var(--background-btn);
+}
+
+.ot-title1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+
+.ot-item {
+    list-style: none;
+    display: inline
+}
+
+.ot-title2 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.ot-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+
+}
+/*Портфолио.Секция 1*/
+.examples-list {}
+
+.examples-item {
+    display: inline;
+}
+
+.examples-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    background-color: var(--background-btn);
+    color: var(--main-text-color);
+}
+
+.examples-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--basic-color);
+}
+
+/*Портфолио.Секция 2(Каталог)*/
+.catalog {}
+
+.catalog-list {}
+
+.catalog-item {
+    display: inline;
+    list-style: none;
+}
+
+.catalog-img {}
+
+.catalog-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
+.catalog-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+/*Футер*/
+
+.footer {
+    background-color: var(--background-dark);
+}
+
+.studio {
+    color: var(--basic-color);
+}
+
+.address-item {
+    list-style: none;
+    display: inline
+}
+
+.address-link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--basic-color);
 }
