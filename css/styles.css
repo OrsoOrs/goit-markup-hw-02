@@ -5,6 +5,7 @@
     --accent-color: #2196F3;
     --background-btn: #F5F4FA;
     --background-dark: #2F303A;
+    --tel-mail-o-color:#FFFFFF60;
 }
 
 body {
@@ -12,6 +13,19 @@ body {
     background-color: var(--basic-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 /*-------------------Хедер--------------*/
 .logo {
@@ -231,11 +245,15 @@ body {
 }
 
 .address-link {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.71;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--basic-color);
-    font-family: 'Roboto';
     font-style: normal;
+}
+
+ .color-tel-mail{
+    color: var(--tel-mail-o-color);
 }
