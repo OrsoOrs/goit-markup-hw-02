@@ -13,13 +13,13 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
 }
-/* Хедер*/
+/*-------------------Хедер--------------*/
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    line-height: 31px;
+    line-height: 1.19;
     color: var(--main-text-color);
     text-decoration: none;
 }
@@ -32,7 +32,7 @@ body {
     background-color: var(--basic-color);
 }
 
-/* Навигация*/
+/*--------------Навигация--------------*/
 
 .nav-list{
     list-style: none;
@@ -45,7 +45,7 @@ body {
 .nav-link {
     font-weight: 500;
     color: var(--main-text-color);
-    line-height: 1.2;
+    line-height: 1.19;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -61,10 +61,10 @@ body {
 }
 
 .tel-mail-link {
-        font-weight: 500;
+        font-weight: 400;
         color: var(--secondary-text-color);
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
         text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ body {
     
 }
 
-/*Герой*/
+/*--------------Герой--------------*/
 
 .hero{
     background-color: var(--background-dark);
@@ -91,13 +91,13 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--basic-color);
     background-color: var(--accent-color);
     cursor: pointer;
 }
-/* Секция2(Преимущества)*/
+/* --------------Секция2(Преимущества)--------------*/
 
 .advantages{
     color: var(--basic-color);
@@ -109,7 +109,7 @@ body {
 
 .advantages-title {
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     text-transform: uppercase;
@@ -121,7 +121,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-/* Секция 3(Чем мы занимаемся) */
+/*--------------Секция 3(Чем мы занимаемся)--------------*/
 
 .our_business {
     background-color: var(--basic-color);
@@ -130,7 +130,7 @@ body {
 .ob-title1 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
@@ -139,7 +139,7 @@ body {
     list-style: none;
     display: inline
 }
-/* Секция 4(Наша команда)*/
+/*--------------Секция 4(Наша команда)--------------*/
 
 .our_team {
     background-color: var(--background-btn);
@@ -148,7 +148,7 @@ body {
 .ot-title1 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
 }
 
@@ -160,19 +160,19 @@ body {
 .ot-title2 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
 
 .ot-text {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 
 }
-/*Портфолио.Секция 1*/
+/*--------------Портфолио.Секция 1--------------*/
 
 .examples-list{
     list-style: none;
@@ -182,7 +182,7 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     background-color: var(--background-btn);
     color: var(--main-text-color);
@@ -195,7 +195,7 @@ body {
     color: var(--basic-color);
 }
 
-/*Портфолио.Секция 2(Каталог)*/
+/*--------------Портфолио.Секция 2(Каталог)--------------*/
 
 
 .catalog-item {
@@ -205,17 +205,17 @@ body {
 .catalog-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-text-color);
 }
 
 .catalog-text {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
-/*Футер*/
+/*--------------Футер--------------*/
 
 .footer {
     background-color: var(--background-dark);
@@ -231,7 +231,7 @@ body {
 
 .address-link {
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--basic-color);
