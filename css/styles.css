@@ -10,7 +10,7 @@
 body {
     color: var(--main-text-color);
     background-color: var(--basic-color);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
 }
 /* Хедер*/
@@ -29,22 +29,15 @@ body {
 }
 
 .header{
-    width: 1600px;
-    height: 80px;
     background-color: var(--basic-color);
 }
 
-.nav-item {
-    display: inline;
-}
 .nav-link.current {
     color: var(--accent-color);
 }
 
 .nav-link {
-    font-family: "Roboto";
     font-weight: 500;
-    font-size: 14px;
     color: var(--main-text-color);
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -58,12 +51,11 @@ body {
 
 .tel-mail-item {
     list-style: none;
+    font-style: normal;
 }
 
 .tel-mail-link {
-        font-family: "Roboto";
         font-weight: 500;
-        font-size: 14px;
         color: var(--secondary-text-color);
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -83,14 +75,14 @@ body {
 }
 
 .hero-title{
-    font-family: "Roboto";
     font-weight: 900;
     font-size: 44px;
     letter-spacing: 0.06em;
     color: var(--basic-color);
+    text-transform: uppercase;
 }
 .hero-btn{
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -107,22 +99,18 @@ body {
 
 .advantages-item {
     list-style: none;
-    display: inline;
 }
 
 .advantages-title {
-    font-family: "Roboto";
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    text-transform: uppercase;
 }
 
 .advantages-text {
-    font-family: "Roboto";
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
@@ -134,7 +122,6 @@ body {
 }
 
 .ob-title1 {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -153,7 +140,6 @@ body {
 }
 
 .ot-title1 {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -163,11 +149,9 @@ body {
 
 .ot-item {
     list-style: none;
-    display: inline
 }
 
 .ot-title2 {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -176,20 +160,16 @@ body {
 }
 
 .ot-text {
-    font-family: "Roboto";
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 
 }
 /*Портфолио.Секция 1*/
 
-.examples-item {
-    display: inline;
-}
 
 .examples-btn {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -209,12 +189,10 @@ body {
 
 
 .catalog-item {
-    display: inline;
     list-style: none;
 }
 
 .catalog-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -223,7 +201,6 @@ body {
 }
 
 .catalog-text {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
@@ -240,13 +217,10 @@ body {
 
 .address-item {
     list-style: none;
-    display: inline
 }
 
 .address-link {
-    font-family: 'Roboto';
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
     text-decoration: none;
     letter-spacing: 0.03em;
