@@ -81,6 +81,7 @@ body {
 }
 
 .hero-title{
+    line-height:1.36;
     font-weight: 900;
     font-size: 44px;
     letter-spacing: 0.06em;
@@ -91,7 +92,7 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--basic-color);
     background-color: var(--accent-color);
