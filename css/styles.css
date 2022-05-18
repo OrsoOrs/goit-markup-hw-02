@@ -32,6 +32,12 @@ body {
     background-color: var(--basic-color);
 }
 
+/* Навигация*/
+
+.nav-list{
+    list-style: none;
+}
+
 .nav-link.current {
     color: var(--accent-color);
 }
@@ -168,8 +174,12 @@ body {
 }
 /*Портфолио.Секция 1*/
 
+.examples-list{
+    list-style: none;
+}
 
 .examples-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -225,4 +235,6 @@ body {
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--basic-color);
+    font-family: 'Roboto';
+    font-style: normal;
 }
