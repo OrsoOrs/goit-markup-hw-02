@@ -75,7 +75,7 @@ body {
 }
 
 .tel-mail-link {
-        font-weight: 400;
+        font-weight: 500;
         color: var(--secondary-text-color);
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -123,6 +123,7 @@ body {
 }
 
 .advantages-title {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
