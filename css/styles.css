@@ -254,6 +254,10 @@ body {
     font-style: normal;
 }
 
- .color-tel-mail{
+.color-tel-mail{
     color: var(--tel-mail-o-color);
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
